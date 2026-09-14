@@ -16,8 +16,15 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-function email(a){
-    let domaine = a.indexOf("@")
-    return a.slice(domaine +1)
+function email(mail){
+    let resultat= mail.indexOf("@")
+    return mail.slice(resultat+1)
 }
 console.log(email("contact@youcode.ma"))
+
+
+// function email(a){
+//     let domaine = a.indexOf("@")
+//     return a.slice(domaine +1)
+// }
+// console.log(email("contact@youcode.ma"))

@@ -26,12 +26,15 @@
 
 // Découpe d'abord le problème en petites étapes.
 let liste=["noob", "idiot", "nul"]
+let message=("Tu es vraiment un GROS NooB et un idiot !!")
 function filtrerMessage(message){
-    let message1=message.toLowerCase();
-    let mot= liste1.splice(" ")
-    if(message1.includes(mot)){
-        message1.replace(mot, " ")
-        return message1
-    }
-}
-console.log(filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!"))
+    let message1= message.toLowerCase()
+    for(let n=0; n<message.length; n++){
+    for (let i=0; i<liste.length; i++){
+        if (message1.includes(liste[i])){
+           var message2=message1.replace(liste[i], "*")
+           return  message2
+        }}
+}}
+console.log(filtrerMessage(message))
+

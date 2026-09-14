@@ -16,12 +16,13 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let phrase="Hyper Text Markup Language"
-let mot=phrase.split(" ")
-let acronyme =""
-for (let i=0; i<mot.length; i++){
+let phrase = "Hyper Text Markup Language"
+let mot= phrase.split(" ")
+let acronyme=""
+for(let i=0; i<mot.length; i++){
     acronyme += mot[i][0]
 }
-console.log(acronyme.toUpperCase())
+console.log(acronyme)
+
 
 

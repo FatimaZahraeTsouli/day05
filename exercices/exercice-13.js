@@ -20,5 +20,5 @@
 function formateur(montant){
     return montant.
 
-}
+
 console.log(formateur("1234567" ))

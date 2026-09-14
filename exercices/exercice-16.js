@@ -17,12 +17,13 @@
 // 2. Écris ta solution sous cette ligne.
 let tweet="Beau temps à #Nador aujourd'hui avec la team #YouCode !"
 let tableau=[]
-let debut=tweet.search("#")
-let fin= tweet.indexOf(" ", debut)
-let resultat=tweet.slice(debut, fin)
+let debut= tweet.search("#")
+let fin = tweet.indexOf(" ", debut)
+let resultat= tweet.slice(debut, fin)
 tableau.push(resultat)
-let debut2=tweet.indexOf("#", fin)
-let fin2= tweet.indexOf(" ", debut2)
-let resultat2=tweet.slice(debut2, fin2)
-tableau.push(resultat2)
+let debut1=tweet.indexOf("#", fin)
+let fin1= tweet.indexOf(" ", debut1)
+let resultat1= tweet.slice(debut1, fin1)
+tableau.push(resultat1)
 console.log(tableau)
+
