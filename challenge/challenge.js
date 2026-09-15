@@ -25,16 +25,16 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-let liste=["noob", "idiot", "nul"]
-let message=("Tu es vraiment un GROS NooB et un idiot !!")
+let mots=["noob", "idiot", "nul"]
+ let message=("Tu es vraiment un GROS NooB et un idiot !!")
 function filtrerMessage(message){
-    let message1= message.toLowerCase()
-    for(let n=0; n<message.length; n++){
-    for (let i=0; i<liste.length; i++){
-        if (message1.includes(liste[i])){
-           var message2=message1.replace(liste[i], "*")
-           return  message2
+    let messagemin = message.toLowerCase()
+    for (let mot of mots){
+        if (messagemin.includes(mot)){
+            messagemin = messagemin.replaceAll(mot, "***");
         }}
-}}
+    return messagemin
+}
 console.log(filtrerMessage(message))
+
 

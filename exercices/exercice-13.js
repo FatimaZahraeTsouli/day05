@@ -17,8 +17,3 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-function formateur(montant){
-    return montant.
-
-
-console.log(formateur("1234567" ))

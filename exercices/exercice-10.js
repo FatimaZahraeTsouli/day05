@@ -23,8 +23,3 @@ function email(mail){
 console.log(email("contact@youcode.ma"))
 
 
-// function email(a){
-//     let domaine = a.indexOf("@")
-//     return a.slice(domaine +1)
-// }
-// console.log(email("contact@youcode.ma"))
